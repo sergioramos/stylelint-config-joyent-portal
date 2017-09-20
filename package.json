@@ -1,0 +1,19 @@
+{
+  "name": "stylelint-config-joyent-portal",
+  "version": "1.0.1",
+  "license": "MPL-2.0",
+  "repository": "github:yldio/stylelint-config-joyent-portal",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "fmt": "prettier --write --single-quote *.js"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.0"
+  }
+}
